@@ -364,14 +364,17 @@
       opacity: 1;
       transform: translateY(0);
     }
+    .lg{width:40%;
+      height:24px;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <nav class="navbar">
+  <nav class="navbar"><span class="lg">
     <a href="#hero" class="logo">
-  <img src="logo.png" alt="CLS JStack Logo">
+  <img src="logo.png" alt="CLS JStack Logo"></span>
   <span class="logo-text">CLS JStack Solutions</span>
 </div>
     <ul class="nav-links">
